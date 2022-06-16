@@ -1,0 +1,76 @@
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px;
+}
+
+.my-projects-title-descrip {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-projects-title-descrip > .my-projetcs-descrip h2 {
+    font-size: 25px !important;
+    font-weight: 400;
+}
+
+/* ---------- my projects title and description styles ---------- */
+.projects-section > .projects-tabs {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+}
+
+.projects-section > .projects-tabs > div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.projects-section > .projects-tabs > div > div{
+    padding: 5px 0px;
+}
+
+.projects-section > .projects-tabs > div > div img {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.projects-section > .projects-tabs > div > .dog-buttons , .laptop-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.projects-section > .projects-tabs > div > .dog-buttons > div , .laptop-buttons > div {
+    display: flex;
+    justify-content: center;
+    width: 48%;
+}
+
+.projects-section > .projects-tabs > div > div > div button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--white-color);
+    border: 2px solid var(--black-color);
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 30px;
+}
+
+.projects-section > .projects-tabs > div > div > div button a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.projects-section > .projects-tabs > div > div > .see-it-live-button button {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.projects-section > .projects-tabs > div > .dog-buttons > div button:hover , .laptop-buttons > div button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

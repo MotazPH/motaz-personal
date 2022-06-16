@@ -1,7 +1,7 @@
 .home {
     display: flex;
     flex-direction: column;
-    padding: 0px 80px;
+    padding: 80px 80px 5px 80px;
     background-color:  var(--white-color);
 
 }
@@ -84,6 +84,19 @@
     align-items: center;
 }
 
+/* ---------- right side image styles ---------- */
+
+.home > .left-right-sides > .right-side-container  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.home > .left-right-sides > .right-side-container > .right-side-image img{
+    width: 100%;
+    height: auto;
+}
 
 
 
