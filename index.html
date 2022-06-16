@@ -35,7 +35,20 @@
                             <a href="https://www.google.com/" target="_blank">CONTACT</a>
                         </div>
                         <div class="darkmode">
-                                <span class="material-symbols-outlined" >dark_mode</span>
+                                <span class="material-symbols-outlined" onclick="darkMode()">dark_mode
+                                    <script>
+                                        function darkMode() {
+                                          var element = document.body;
+                                          let theme = element.getAttribute("theme");
+                                          if (theme === "dark") {
+                                            element.setAttribute("theme", "light");
+                                          }
+                                          else {
+                                            element.setAttribute("theme", "dark");
+                                          }
+                                        }
+                                    </script>
+                                </span>
                         </div>
                     </div>
                 </div>

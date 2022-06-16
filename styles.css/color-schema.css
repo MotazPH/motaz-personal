@@ -1,14 +1,17 @@
 :root {
     --white-color: white;
     --black-color: black;
+    --c-img-filter: invert(0%);
   }
 
   body[theme="light"] {
     --white-color: white;
     --black-color: black;
+    --c-img-filter: invert(0%);
   }
 
   body[theme="dark"] {
-    --white-color: black;
+    --white-color: rgb(47, 47, 47);
     --black-color: white;
+    --c-img-filter: invert(100%);
   }

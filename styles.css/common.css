@@ -8,34 +8,40 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    color: var(--black-color);
 }
 
 h1 {
     font-size: 75px;
     font-weight: 900;
     margin: 5px 0px;
+    color: var(--black-color);
 }
 
 h2 {
     font-size: 45px ;
     font-weight: 700 ;
     margin: 5px 0px;
+    color: var(--black-color);
 }
 
 h3 {
     font-size: 20px;
     font-weight: 700;
     margin: 5px 0px;
+    color: var(--black-color);
 }
 
 h4 {
     font-size: 25px;
     font-weight: 700;
     margin: 5px 0px;
+    color: var(--black-color);
 }
 
 h6 {
     font-size: 15px;
     font-weight: 400;
     margin: 5px 0px;
+    color: var(--black-color);
 }

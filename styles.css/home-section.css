@@ -84,6 +84,10 @@
     align-items: center;
 }
 
+.home > .mouse-scroll-container img {
+    filter: var(--c-img-filter);
+}
+
 /* ---------- right side image styles ---------- */
 
 .home > .left-right-sides > .right-side-container  {

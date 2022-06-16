@@ -9,12 +9,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .header > .logo img {
     width: 100px;
     height: auto;
+    filter: var(--c-img-filter);
 }
 
 .header > .links-wrapper  {
