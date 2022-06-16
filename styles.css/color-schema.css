@@ -1,0 +1,14 @@
+:root {
+    --white-color: white;
+    --black-color: black;
+  }
+
+  body[theme="light"] {
+    --white-color: white;
+    --black-color: black;
+  }
+
+  body[theme="dark"] {
+    --white-color: black;
+    --black-color: white;
+  }
