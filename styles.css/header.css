@@ -53,10 +53,24 @@
     font-weight: 600;
 }
 
-.header > .links-wrapper > .links > .dark-mode  span{
+.header > .links-wrapper > .links > .darkmode span{
     width: fit-content !important;
     background-color: var(--black-color);
     color: var(--white-color);
+    padding: 3px;
+    font-size: 40px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.header > .links-wrapper > .links > .darkmode:hover{
+    text-decoration: none;
+}
+
+.header > .links-wrapper > .links > .darkmode span:hover{
+    width: fit-content !important;
+    background-color: var(--white-color);
+    color: var(--black-color);
     padding: 3px;
     font-size: 40px;
     border-radius: 50%;
