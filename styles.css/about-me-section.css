@@ -1,0 +1,100 @@
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 80px;
+}
+
+.about-me-section h2{
+    margin: 5px 0px;
+    font-size: 30px !important;
+    font-weight: 400;
+}
+
+.about-me-section > .paragraph-photo-others{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+/* ---------- paragraph-column styles ---------- */
+.paragraph-photo-others > .paragraph-column{
+    width: 50%;
+}
+
+.paragraph-photo-others > .paragraph-column p {
+   margin: 0px;
+   font-size: 20px;
+}
+
+.paragraph-photo-others > .paragraph-column p > span {
+    font-weight: 700;
+}
+
+.paragraph-photo-others > .paragraph-column > .tools-tech {
+    padding-top: 100px;
+}
+
+.paragraph-photo-others > .paragraph-column > .tools-tech > .tools-tech-title{
+    padding-bottom: 20px;
+}
+
+.paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container {
+    display: flex;
+    justify-content: space-between;
+    height: 270px;
+}
+
+.paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container >.creative-design {
+    width: 30%;
+}
+
+.paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container > .development {
+    width: 60%;
+}
+
+.paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container h3{
+    line-height: 50px;
+}
+
+.paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container > .development {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.tools-tech > .creative-development-container > .development > .development-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+}
+
+/* ---------- photo-column styles ---------- */
+.photo-column {
+    width: 35%;
+}
+
+.photo-column > .personal-photo{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.photo-column > .personal-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.photo-column > .quote {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.photo-column > .quote-signature {
+    font-size: 20px;
+    font-weight:500;
+    text-align: right;
+}
+
+
