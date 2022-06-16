@@ -1,7 +1,8 @@
 .about-me-section {
     display: flex;
     flex-direction: column;
-    padding: 0px 80px;
+    padding: 80px 80px 0px 80px;
+    background-color:  var(--white-color);
 }
 
 .about-me-section h2{
@@ -13,7 +14,7 @@
 .about-me-section > .paragraph-photo-others{
     display: flex;
     justify-content: space-between;
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 
 /* ---------- paragraph-column styles ---------- */

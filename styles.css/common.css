@@ -3,6 +3,13 @@ body {
     margin: 0px;
 }
 
+.body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 h1 {
     font-size: 75px;
     font-weight: 900;
