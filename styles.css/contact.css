@@ -1,0 +1,79 @@
+.contact-section {
+    padding: 0px 80px 80px 80px;
+    display: flex;
+    justify-content: space-between
+}
+
+.contact-section > .vector-column {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.contact-section > .vector-column > .vector-container img{
+    width: 100%;
+    height: auto;
+}
+
+.contact-section > .entry-column {
+    width: 65%;
+}
+
+.contact-section > .entry-column > .contact-description h2 {
+    margin: 5px 0px 50px 0px;
+    font-size: 23px !important;
+    font-weight: 400;
+}
+
+/* ---------- Contact entry ---------- */
+.contact-data-entry-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 75%;
+}
+
+.contact-data-entry-container > .entry {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.contact-data-entry-container > .entry > label {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact-data-entry-container > .entry > input {
+    height: 48px;
+    border: 2px solid var(--black-color);
+}
+
+.contact-data-entry-container > .entry > textarea {
+    height: 200px;
+    border: 2px solid var(--black-color);
+}
+
+.contact-data-entry-container > .submit-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-data-entry-container > .submit-button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    border: 2px solid var(--black-color);
+    font-size: 20px;
+    font-weight: 700;
+    width: 250px;
+    line-height: 30px;
+}
+
+.contact-data-entry-container > .submit-button button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
