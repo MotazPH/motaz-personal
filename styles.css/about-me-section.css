@@ -1,14 +1,30 @@
 .about-me-section {
     display: flex;
     flex-direction: column;
-    padding: 80px 80px 0px 80px;
+    padding: 62px 154px 280px 162px;
     background-color:  var(--white-color);
 }
 
-.about-me-section h2{
-    margin: 5px 0px;
-    font-size: 30px !important;
-    font-weight: 400;
+.about-me-section > .title-descrip > .about-me-title {
+    height: 127px;
+}
+
+.about-me-section > .title-descrip > .about-me-title h1{
+    margin: 0px !important;
+    font-size: 85px !important;
+    font-weight: 900 !important;
+    line-height: 124px !important;
+}
+
+.about-me-section > .title-descrip > .about-me-descrip {
+    height: 50px;
+}
+
+.about-me-section > .title-descrip > .about-me-descrip h2{
+    margin: 0px !important;
+    font-size: 31px !important;
+    font-weight: 400 !important;
+    line-height: 45.5px !important;
 }
 
 .about-me-section > .paragraph-photo-others{
@@ -19,60 +35,83 @@
 
 /* ---------- paragraph-column styles ---------- */
 .paragraph-photo-others > .paragraph-column{
-    width: 50%;
+    width: 49%;
+}
+
+.paragraph-photo-others > .paragraph-column > .about-me-paragraph{
+    height: 788px;
 }
 
 .paragraph-photo-others > .paragraph-column p {
    margin: 0px;
-   font-size: 20px;
+   font-size: 24px !important;
+   font-weight: 400 !important;
+   line-height: 35.25px !important;
 }
 
 .paragraph-photo-others > .paragraph-column p > span {
     font-weight: 700;
 }
 
-.paragraph-photo-others > .paragraph-column > .tools-tech {
-    padding-top: 100px;
-}
-
 .paragraph-photo-others > .paragraph-column > .tools-tech > .tools-tech-title{
     padding-bottom: 20px;
+}
+
+.paragraph-photo-others > .paragraph-column > .tools-tech > .tools-tech-title h4 {
+    margin: 0px;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 45.5px;
 }
 
 .paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container {
     display: flex;
     justify-content: space-between;
     height: 270px;
+    gap: 29px;
 }
 
 .paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container >.creative-design {
-    width: 30%;
+    width: 292px;
 }
 
-.paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container > .development {
-    width: 60%;
+.paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container >.creative-design > .creative-design-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 20px;
+    height: 226px;
+    width: 292px;
+    gap: 15px;
 }
 
-.paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container h3{
-    line-height: 50px;
-}
-
-.paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container > .development {
+.paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container > div {
+    height: 226px;
     display: flex;
     flex-direction: column;
     width: 65%;
+    gap: 13px;
+}
+
+.paragraph-photo-others > .paragraph-column > .tools-tech > .creative-development-container h3 {
+    line-height: 35.25px;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .tools-tech > .creative-development-container > .development > .development-items {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 150px;
+    font-size: 20px;
+    height: 226px;
+    gap: 15px;
+    column-gap: 30px;
 }
 
 /* ---------- photo-column styles ---------- */
 .photo-column {
-    width: 35%;
+    width: 39.4%;
 }
 
 .photo-column > .personal-photo{
@@ -87,14 +126,19 @@
 }
 
 .photo-column > .quote {
-    font-family: 'Caveat', cursive;
-    font-size: 50px;
-    line-height: 65px;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 78.4px;
+    text-align: right;
+    padding-bottom: 11px;
+    padding-top: 115px;
 }
 
 .photo-column > .quote-signature {
     font-size: 20px;
     font-weight:500;
+    line-height:29.4px;
     text-align: right;
 }
 

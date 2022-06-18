@@ -1,12 +1,12 @@
 .contact-section {
-    padding: 80px 80px 80px 80px;
+    padding: 62px 154px 127px 162px;
     display: flex;
     justify-content: space-between;
     background-color:  var(--white-color);
 }
 
 .contact-section > .vector-column {
-    width: 30%;
+    width: 29%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -18,13 +18,19 @@
     filter: var(--c-img-filter);
 }
 
+.contact-section > .entry-column > .contact-title h1{
+    font-size: 85px;
+    font-weight: 900;
+    line-height: 124.8px;
+}
+
 .contact-section > .entry-column {
-    width: 65%;
+    width: 71%;
 }
 
 .contact-section > .entry-column > .contact-description h2 {
     margin: 5px 0px 50px 0px;
-    font-size: 23px !important;
+    font-size: 29px !important;
     font-weight: 400;
 }
 
@@ -33,7 +39,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 75%;
+    width: 70%;
 }
 
 .contact-data-entry-container > .entry {
@@ -44,8 +50,9 @@
 }
 
 .contact-data-entry-container > .entry > label {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
+    line-height: 35.25px;
 }
 
 .contact-data-entry-container > .entry > input {

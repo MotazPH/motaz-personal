@@ -1,5 +1,5 @@
 .footer {
-    padding: 80px 80px;
+    padding: 92px 162px 95px 162px ;
     background-color: var(--black-color);
 }
 
@@ -14,25 +14,26 @@
     justify-content: flex-start;
     align-items: center;
     color: var(--white-color);
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35.25px;
 }
 
 .footer > .footer-container > .designed-by span {
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .footer > .footer-container > .social-media {
     display: flex;
     justify-content: space-between;
-    width: 23%;
+    width: 19%;
 }
 
 .footer > .footer-container > .social-media > div {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 23px;
+    font-size: 30px;
     width: 60px;
 }
 
@@ -43,6 +44,6 @@
 }
 
 .footer > .footer-container > .social-media > div i:hover {
-    font-size: 30px;
+    font-size: 34px;
     cursor: pointer;
 }
