@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-div-container .circle-large {
+    position: relative;
+}
+
+.main-div-container .circle-large {
+    position: absolute;
+    display: flex;
+    height: 600px;
+    width: 600px;
+    background: linear-gradient(90deg, #667EEA 0%, #764BA2 100%);
+    border-radius: 50%;
+    right: 9.5%;
+    top: 8%;
+}
+
+.main-div-container .circle-medium {
+    position: absolute;
+    height: 512px;
+    width: 512px;
+    background: linear-gradient(90deg, #16A085 0%, #F4D03F 100%);
+    border-radius: 50%;
+    Top: 62%;
+    right: 78.3%;
+}
+
+.main-div-container .circle-small {
+    position: absolute;
+    height: 256px;
+    width: 256px;
+    background: linear-gradient(90deg, #667EEA 0%, #764BA2 100%);
+    border-radius: 50%;
+    Top: 20%;
+    left: 13%;
+}
+
+.card {
+    position: absolute;
+    display: flex;
+    width:59%;
+    height:59%;
+    left:19%;
+    bottom:15%;
+}
+
+.card-container {
+    padding: 12% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(153.32deg, rgba(255, 255, 255, 0.3) -65.62%, rgba(255, 255, 255, 0.1) 83.28%);
+    width: 100%;
+    height:inherit;
+    border: 5px solid gray; 
+    border-radius: 70px;
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+}
+
+.card-container > .title-name {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-container > .figma {
+    font-size: 2.6vw;
+    line-height: 58.5px;
+    font-weight: 500;
+    mix-blend-mode: overlay;
+    opacity: 50%;
+}
+
+.card-container > .title-name > .card-title {
+    font-size: 5vw;
+    line-height: 112.5px;
+    font-weight: 600;
+    mix-blend-mode: overlay;
+    opacity: 50%;
+}
+
+.card-container > .title-name > .card-name {
+    font-size: 2.6vw;
+    line-height: 58.6px;
+    font-weight: 600;
+    mix-blend-mode: overlay;
+    opacity: 50%;
+}
