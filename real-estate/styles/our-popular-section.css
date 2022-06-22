@@ -22,15 +22,6 @@
     display: flex;
 }
 
-.popular-left-column > .popular-left-above-photo > .popular-left-empty {
-    width: 27.3%;
-    height: 2px;
-    display: flex;
-    align-self: center;
-    background-color: black;
-    margin-right: 13px;
-}
-
 .popular-middle-column > .popular-middle-button-container button {
     display: flex;
     justify-content: space-evenly;
@@ -41,5 +32,3 @@
     cursor: pointer;
     text-decoration: underline;
 }
-
-
