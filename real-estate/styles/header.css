@@ -1,0 +1,66 @@
+.header {
+    height: 163px;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 89px;
+    padding-right: 148px;
+}
+
+.header-container > .logo {
+    display: flex;
+    align-items: center;
+    width: 15.5%;
+}
+
+.header-container > .links-search-list {
+    display: flex;
+    align-items: center;
+    gap: 14%;
+    width: 52.4%;
+}
+
+.header-container > .links-search-list > .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 68%;
+}
+
+.header-container > .links-search-list > .links > div {
+    font-size:14px;
+    font-weight:500;
+    line-height: 17px;
+    text-transform: capitalize;
+}
+
+.header-container > .links-search-list > .links > div:hover a {
+    text-decoration: underline;
+}
+
+.header-container > .links-search-list > .links a {
+    color: unset;
+    text-decoration: none;
+}
+
+.header-container > .links-search-list > .search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 5%;
+}
+
+.header-container > .links-search-list > .list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 5%;
+}
+
+
+
+

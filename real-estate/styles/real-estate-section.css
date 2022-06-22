@@ -1,0 +1,105 @@
+.real-estate-section {
+    display: flex;
+    padding-top:79px;
+    padding-left: 172px;
+    padding-right: 185px;
+    position: relative;
+}
+
+.real-estate-section > .wavy-background-abolute {
+    position: absolute;
+    width: 1674.07px;
+    height: 1069.84px;
+    left: 266.5px;
+    top: 306px;
+    transform: rotate(38.33deg);
+    z-index: -1;
+}
+
+/* -------- absolute div styles ----------- */
+.real-estate-section > .absolute-div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 183px;
+    height: 202px;
+    left: 115px;
+    top: 35px;
+    background: rgba(184, 203, 209, 0.43);
+    border-radius: 0px 52px 0px 0px;
+    color: #5E5E5E;
+}
+
+.real-estate-section > .absolute-div > .absolute-div-container{
+    margin: 17px 25px 10px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.real-estate-section > .absolute-div > .absolute-div-container > .characteristics{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.real-estate-section > .absolute-div > .absolute-div-container > .star-rate{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.tower-real-estate {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+.tower-photo {
+    width: 34%;
+}
+
+.tower-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.real-estate-container {
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.real-estate-container > .real-estate-title {
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 75px;
+}
+
+.real-estate-container > .real-estate-descrip {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    color: #9E9A9A;
+    padding-top: 37px;
+    padding-bottom: 14px;
+}
+
+.real-estate-container > .real-estate-button a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 24px;
+}
+
+.real-estate-container > .real-estate-button a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,154 @@
+.marina-container {
+    display: flex;
+    padding-top:20px;
+    padding-left: 172px;
+    padding-bottom: 57px;
+    gap: 20px;
+    position: relative;
+}
+
+.marina-container > .name-job {
+    padding-top:18px;
+}
+
+.marina-container > .name-job > .marina-name {
+    font-size:20px;
+    font-weight:500;
+    line-height: 24.2px;
+}
+
+.marina-container > .name-job > .marina-job {
+    font-size:14px;
+    font-weight:500;
+    line-height: 17px;
+    color: #A8A8A8;
+}
+
+/* -------- table styles ----------- */
+.marina-container > .under-marina {
+    position: absolute;
+    width: 74%;
+    left: 176px;
+    top: 171px;
+}
+
+.under-marina-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------- tabs styles ----------- */
+.under-marina-container > .under-marina-tabs {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+}
+
+.under-marina-container > .under-marina-tabs > .buy, .sell, .rent {
+    background-color:#ffffffab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84px;
+    height: 49px;
+    border: 0px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+.under-marina-container > .under-marina-tabs > div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.under-marina-container > .under-marina-tabs > div:active {
+    background-color: #D3D3D3;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.under-marina-container > .under-marina-tabs > .active {
+    background-color: #D3D3D3;
+    cursor: pointer;
+}
+
+.under-marina-container > .under-marina-tabs > .buy {
+    border-radius: 5px 0px 0px 0px;
+}
+
+.under-marina-container > .under-marina-tabs > .rent {
+    border-radius: 0px 5px 0px 0px;
+}
+
+/* -------- description table styles ----------- */
+.under-marina-table {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 10px 10px 10px;
+    padding: 24px 0px;
+}
+
+.under-marina-table > .table-locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 17px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.under-marina-table > .table-property {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 17px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 9.5%;
+    padding-right: 9.5%;
+    border-left: 2px solid rgba(128, 128, 128, 0.433) !important;
+    border-right: 2px solid rgba(128, 128, 128, 0.433) !important;
+}
+
+.under-marina-table > .table-budget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 17px;
+    padding-left: 9.3%;
+    padding-right: 15.2%;
+}
+
+.under-marina-table > div > div {
+    font-size:16px;
+    font-weight: 500;
+    line-height: 19.36px;
+}
+
+.under-marina-table > div > .locations-descrip, .property-descrip, .budget-descrip {
+    color: #BAB9B9;
+}
+
+.table-button {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.table-button > .table-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-button > .table-button-container button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px !important;
+}
