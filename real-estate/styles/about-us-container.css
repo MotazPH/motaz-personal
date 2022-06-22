@@ -1,0 +1,113 @@
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 93px 160px 308px 124px;
+    background-color: #F7FBFB;
+    position: relative;
+}
+
+.about-us-left-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------- about us left column styles --------- */
+.about-us-left-right > .about-us-left-column{
+    width: 50.4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-left-right > .about-us-left-column > .about-us-empty{
+    display: flex;
+}
+
+.about-us-left-right > .about-us-left-column > .heading h2 {
+    margin-bottom: 25px !important;
+}
+
+/* ---------- about us right column styles --------- */
+.about-us-left-right > .about-us-right-column{
+    width: 46.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-us-left-right > .about-us-right-column > .about-us-right-column-photo img{
+    height: 485px;
+}
+
+/* ---------- about us absolute div styles --------- */
+.about-us-absolute-div {
+    display: flex;
+    gap: 3%;
+    height: 425px;
+    position: absolute;
+    top: 834px;
+}
+
+.about-us-absolute-div > .about-us-absolute-left-container  {
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.about-us-absolute-div > .about-us-absolute-middle-container  {
+    display: flex;
+    align-items: center;
+}
+
+.about-us-absolute-div > .about-us-absolute-right-container  {
+    display: flex;
+    align-items: flex-end;
+}
+
+.about-us-absolute-div > div  {
+    width: 28%;
+}
+
+.about-us-absolute-div > div > div  {
+    display: flex;
+    flex-direction: column;
+    padding: 43px 27px 92px 24px;
+    height: 169px;
+    background-color: white;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+}
+
+.about-us-absolute-div > div > div > .about-us-absolute-column-vector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    background-color: #33374E;
+    height: 42px;
+    width: 42px;
+}
+
+.about-us-absolute-div > div > div > .about-us-absolute-column-vector img {
+    height: 41px;
+    width: 41px;
+}
+
+.about-us-absolute-div > .about-us-absolute-right-container > .about-us-absolute-right-column > .about-us-absolute-column-vector {
+    position: relative;
+}
+
+.about-us-absolute-div > .about-us-absolute-right-container > .about-us-absolute-right-column > .about-us-absolute-column-vector img {
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    bottom: 8px;
+    left: 9px;
+}
+
+
+.about-us-absolute-div > div > div > .about-us-absolute-column-heading {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36.3px;
+    margin: 15px 0px;
+}

@@ -12,12 +12,6 @@
     
 }
 
-.popular-left-column {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24.2px;
-}
-
 .popular-left-column > .popular-left-above-photo {
     display: flex;
 }
