@@ -27,7 +27,7 @@
 /* -------- table styles ----------- */
 .marina-container > .under-marina {
     position: absolute;
-    width: 74%;
+    width: 75%;
     left: 176px;
     top: 171px;
 }
@@ -151,4 +151,8 @@
     justify-content: center;
     align-items: center;
     width: 180px !important;
+}
+
+.table-button > .table-button-container button:hover{
+    text-decoration: underline;
 }

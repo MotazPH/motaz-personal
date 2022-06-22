@@ -89,7 +89,12 @@
     padding-bottom: 14px;
 }
 
-.real-estate-container > .real-estate-button a {
+.real-estate-container > .real-estate-button button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.real-estate-container > .real-estate-button a, span {
     font-size: 20px;
     font-weight: 500;
     line-height: 24.2px;

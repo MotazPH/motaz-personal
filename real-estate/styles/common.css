@@ -27,3 +27,11 @@ button a {
     display: flex;
     gap: 24px;
 }
+
+h2 {
+    font-size:50px;
+    font-weight: 500;
+    line-height: 53px;
+    color: black;
+    margin: 0px;
+}
