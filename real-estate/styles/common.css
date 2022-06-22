@@ -35,3 +35,12 @@ h2 {
     color: black;
     margin: 0px;
 }
+
+.empty-div {
+    width: 27.3%;
+    height: 2px;
+    display: flex;
+    align-self: center;
+    background-color: black;
+    margin-right: 13px;
+}
