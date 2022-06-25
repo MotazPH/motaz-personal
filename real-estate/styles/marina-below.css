@@ -1,10 +1,11 @@
 .marina-container {
     display: flex;
     padding-top:20px;
-    padding-left: 172px;
-    padding-bottom: 57px;
+    padding-left: 12%;
+    padding-bottom: 182px;
     gap: 20px;
     position: relative;
+    background-color: #F7FBFB;
 }
 
 .marina-container > .name-job {
@@ -28,7 +29,7 @@
 .marina-container > .under-marina {
     position: absolute;
     width: 75%;
-    left: 176px;
+    left: 12%;
     top: 171px;
 }
 

@@ -1,10 +1,10 @@
 .real-estate-section {
     display: flex;
     padding-top:242px;
-    padding-left: 172px;
-    padding-right: 185px;
+    padding-left: 12%;
+    padding-right: 12.8%;
     position: relative;
-    background-image: url(../images/Rectangle-top.png);
+    background-color: #F7FBFB;
 
 }
 
