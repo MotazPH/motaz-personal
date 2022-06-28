@@ -33,6 +33,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 540px;
 }
 
 .about-us-left-right > .about-us-right-column > .about-us-right-column-photo img{
@@ -46,6 +47,8 @@
     height: 425px;
     position: absolute;
     top: 834px;
+    width: 81%;
+    justify-content: space-around;
 }
 
 .about-us-absolute-div > .about-us-absolute-left-container  {
