@@ -58,6 +58,10 @@
     width: 5%;
 }
 
+.header-container > .links-search-list > .search span{
+    color: black;
+}
+
 .header-container > .links-search-list > .list {
     display: flex;
     justify-content: flex-start;

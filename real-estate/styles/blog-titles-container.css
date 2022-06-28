@@ -75,3 +75,15 @@
     display: flex;
     align-items:center ;
 }
+
+.our-latest-container > .our-latest-title > .blog-load-more-button{
+    padding-top: 34px;
+    padding-bottom: 139px;
+}
+
+.our-latest-container > .our-latest-title > .blog-load-more-button button{
+    width: 161px !important;
+    height: 56px !important;
+    display: flex;
+    justify-content: space-evenly;
+}

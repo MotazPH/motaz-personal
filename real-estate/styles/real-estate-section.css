@@ -1,11 +1,12 @@
 .real-estate-section {
     display: flex;
+    flex-direction: column;
     padding-top:242px;
     padding-left: 12%;
     padding-right: 12.8%;
     position: relative;
     background-color: #F7FBFB;
-
+    background-image:url(/real-estate/images/background.png)
 }
 
 .real-estate-section > .wavy-background-abolute {

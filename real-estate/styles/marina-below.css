@@ -1,11 +1,10 @@
 .marina-container {
     display: flex;
     padding-top:20px;
-    padding-left: 12%;
     padding-bottom: 182px;
     gap: 20px;
     position: relative;
-    background-color: #F7FBFB;
+
 }
 
 .marina-container > .name-job {
@@ -28,8 +27,7 @@
 /* -------- table styles ----------- */
 .marina-container > .under-marina {
     position: absolute;
-    width: 75%;
-    left: 12%;
+    width: 100%;
     top: 171px;
 }
 
@@ -137,7 +135,6 @@
 
 .table-button {
     display: flex;
-    justify-content: center;
     width: 20%;
 }
 
