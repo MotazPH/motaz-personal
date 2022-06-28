@@ -1,6 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
     margin: 0px;
+    max-width: 1440px;
 }
 
 button {

@@ -11,6 +11,10 @@
     width: 50%;
 }
 
+.our-service-left-column > .our-service-left-column-photo img {
+    width: 100%;
+}
+
 .our-serivce-left-column-absolute-div {
     position: absolute;
     bottom: 0px;
@@ -31,6 +35,10 @@
     color: white;
     font-size: 16px;
     font-weight: 500;
+}
+
+.our-serivce-left-column-absolute-div > .see-more-see-more {
+    background-color: white;
 }
 
 .our-serivce-left-column-absolute-div > .see-more-see-more a{

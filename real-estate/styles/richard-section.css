@@ -1,0 +1,156 @@
+.richard-section-container {
+    padding: 167px 140px 177px 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------- left column styles ----------- */
+.richard-left-column {
+    width: 28.4%;
+}
+
+    /* ----- richard photo and description styles ----- */
+    .richard-photo-name {
+        display: flex;
+        gap: 16px;
+    }
+
+    .richard-name-descrip {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .richard-name-descrip > .richard-name{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.2px;
+    }
+
+    .richard-name-descrip > .richard-descrip{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.94px;
+        color: #a8a8a8
+    }
+
+    /* ----- star and rating div styles ----- */
+    .star-container-richard {
+        padding-top: 13px;
+        padding-bottom: 24px;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .star-container-richard > .star-rating{
+        display: flex;
+        gap: 14.5px;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.2px;
+    }
+
+    .lorem-simply-container {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 27.5px;
+        color: #a0a0a0
+    }
+
+    .lorem-simply-container > .vector-blue-dot {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: #83A2F2;
+    }
+
+    /* ----- tabs div styles ----- */
+    .left-column-tabs-container {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .left-column-tabs-container > div {
+        display: flex;
+        gap: 15px;
+        align-items:center;
+        width: 95%;
+        height: 105px;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding-left:  16px;
+    }
+    
+    .left-column-tabs-container > div > div > .tab-title{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.2px;
+    }
+
+    .left-column-tabs-container > div > div > .tab-descrip{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.94px;
+        color: #A8A8A8;
+    }
+
+/* ---------- middle column styles ----------- */
+.richard-middle-column {
+    width: 37.4%;
+}
+
+.richard-middle-column img{
+    width: 100%;
+    height: auto;
+}
+
+/* ---------- right column styles ----------- */
+.richard-right-column {
+    width: 27%;
+}
+
+.richard-right-column > .google-map iframe{
+    width: 100%;
+    height: 343px;
+}
+
+.trip-details {
+    padding: 17px 0px 25px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.trip-details > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trip-details > div > div{
+    min-width: 100px;
+}
+
+.trip-details > div > div > .title{
+    font-size:20px;
+    font-weight: 500;
+    line-height: 19.9px;
+    color: #b0b0b0;
+    height: 29px;
+}
+
+.trip-details > div > div > .details{
+    font-size:20px;
+    font-weight: 500;
+    line-height: 19.9px;
+}
+
+.decoration-photos {
+    display: flex;
+    justify-content: space-between;
+}
